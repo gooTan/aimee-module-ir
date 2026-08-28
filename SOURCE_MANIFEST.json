@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "module": "ir",
+  "classification": "required",
+  "execution": "core",
+  "runtime": null,
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "36ad047651bc705b30cb99329bb543fc653ed3ebcf5a6720cbe4dcc81ac9b522",
+  "owned_files": [
+    "src/modules/ir/module.yaml",
+    "src/modules/ir/aimee_ir.c",
+    "src/modules/ir/aimee_ir_metrics.c",
+    "src/modules/ir/include/aimee/ir/aimee_ir.h",
+    "src/modules/ir/include/aimee/ir/aimee_ir_metrics.h",
+    "src/modules/ir/include/aimee/ir/panel_result.h",
+    "src/tests/test_aimee_ir.c",
+    "src/tests/test_aimee_ir_metrics.c",
+    "src/tests/test_panel_ir_contract.c",
+    "docs/modules/ir.md"
+  ]
+}
